@@ -1,3 +1,9 @@
+/*
+    Muhammad Suton
+    @musulton
+    Omnifood CSS
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +19,13 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* ----- REUSABLE COMPONENT ----- */
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+/* ----- HEADER ----- */
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
@@ -25,6 +33,50 @@ header {
     height: 100vh;
 }
 
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ----- MAIN NAVIGATION ----- */
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #cf6d17;
+}
+
+/* ----- HEADING ----- */
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -36,14 +88,7 @@ h1 {
     word-spacing: 4px;
 }
 
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
+/* ----- BUTTON ----- */
 .btn:link,
 .btn:visited {
     display: inline-block;

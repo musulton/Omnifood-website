@@ -1,7 +1,7 @@
 /*
     Muhammad Suton
     @musulton
-    Omnifood CSS
+    -- Omnifood CSS --
 */
 
 * {
@@ -25,7 +25,7 @@ html {
     margin: 0 auto;
 }
 
-section {
+.section-features {
     padding: 80px;
 }
 
@@ -183,4 +183,26 @@ h3 {
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+/* ----- MEALS ----- */
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meals-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meals-photo img {
+    width: 100%;
+    height: auto;
 }

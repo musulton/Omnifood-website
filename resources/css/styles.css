@@ -233,18 +233,12 @@ input[type=submit]:active {
 }
 
 /* ----- FEATURES ----- */
-.section-features {
-    padding: 80px;
-}
+.section-features { padding: 80px; }
 
-.section-features .long-copy {
-    margin-bottom: 10px;
-}
+.section-features .long-copy { margin-bottom: 10px; }
 
 /* ----- MEALS ----- */
-.section-meals {
-    padding: 0;
-}
+.section-meals { padding: 0; }
 
 .meals-showcase {
     list-style: none;
